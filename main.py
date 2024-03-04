@@ -124,7 +124,7 @@ def help(update, context):
 
 
 def main():
-    updater = Updater(bot_token, use_context=True)
+    updater = Updater(6797141717:AAFXr7EpO1JKqSsQX9Vf8fRPbfaLxI0vqsU, use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("help", help))
